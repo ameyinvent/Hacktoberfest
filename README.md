@@ -129,7 +129,7 @@ git clone https://github.com/your-username/Hacktoberfest.git
 ###### Once you have configured a remote that references the upstream and original repository on GitHub, you are ready to sync your fork of the repository to keep it up-to-date.
 ###### To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the shortname “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
 
-##### // git fetch upstream //
+##### // git fetch upstream .//
 
 ###### Switch to the local master branch of our repository:
 
@@ -139,7 +139,7 @@ git clone https://github.com/your-username/Hacktoberfest.git
 
 ##### // git merge upstream/master //
 
-### 8. Create Pull Request
+### 8. Create Pull Request.
 
 ###### At this point, you are ready to make a pull request to the original repository.
 
